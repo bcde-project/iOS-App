@@ -11,9 +11,12 @@
 		1DA25965287302D400218A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA25964287302D400218A63 /* AppDelegate.swift */; };
 		1DA25967287302D400218A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA25966287302D400218A63 /* SceneDelegate.swift */; };
 		1DA25969287302D400218A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA25968287302D400218A63 /* ViewController.swift */; };
-		1DA2596C287302D400218A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA2596A287302D400218A63 /* Main.storyboard */; };
 		1DA2596E287302D500218A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA2596D287302D500218A63 /* Assets.xcassets */; };
 		1DA25971287302D500218A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA2596F287302D500218A63 /* LaunchScreen.storyboard */; };
+		785C7D0028871FE4006DCB84 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C7CFF28871FE4006DCB84 /* MainTabBarController.swift */; };
+		785C7D0228872170006DCB84 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C7D0128872170006DCB84 /* HomeViewController.swift */; };
+		785C7D04288721A0006DCB84 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C7D03288721A0006DCB84 /* ProfileViewController.swift */; };
+		785C7D06288721CA006DCB84 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C7D05288721CA006DCB84 /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +24,13 @@
 		1DA25964287302D400218A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DA25966287302D400218A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1DA25968287302D400218A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DA2596B287302D400218A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DA2596D287302D500218A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DA25970287302D500218A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DA25972287302D500218A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785C7CFF28871FE4006DCB84 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		785C7D0128872170006DCB84 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		785C7D03288721A0006DCB84 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		785C7D05288721CA006DCB84 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		8C55DF752A212B15797B64C5 /* Pods_bcde_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcde_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BDC8F49E25EA16BB1D2EB6 /* Pods-bcde-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcde-iOS.debug.xcconfig"; path = "Target Support Files/Pods-bcde-iOS/Pods-bcde-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FC8A2C74F410F5192C18CA8E /* Pods-bcde-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcde-iOS.release.xcconfig"; path = "Target Support Files/Pods-bcde-iOS/Pods-bcde-iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +71,11 @@
 			children = (
 				1DA25964287302D400218A63 /* AppDelegate.swift */,
 				1DA25966287302D400218A63 /* SceneDelegate.swift */,
+				785C7CFF28871FE4006DCB84 /* MainTabBarController.swift */,
+				785C7D0128872170006DCB84 /* HomeViewController.swift */,
+				785C7D03288721A0006DCB84 /* ProfileViewController.swift */,
+				785C7D05288721CA006DCB84 /* SurveyViewController.swift */,
 				1DA25968287302D400218A63 /* ViewController.swift */,
-				1DA2596A287302D400218A63 /* Main.storyboard */,
 				1DA2596D287302D500218A63 /* Assets.xcassets */,
 				1DA2596F287302D500218A63 /* LaunchScreen.storyboard */,
 				1DA25972287302D500218A63 /* Info.plist */,
@@ -80,7 +89,6 @@
 				B0BDC8F49E25EA16BB1D2EB6 /* Pods-bcde-iOS.debug.xcconfig */,
 				FC8A2C74F410F5192C18CA8E /* Pods-bcde-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,7 +162,6 @@
 			files = (
 				1DA25971287302D500218A63 /* LaunchScreen.storyboard in Resources */,
 				1DA2596E287302D500218A63 /* Assets.xcassets in Resources */,
-				1DA2596C287302D400218A63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,10 @@
 			files = (
 				1DA25969287302D400218A63 /* ViewController.swift in Sources */,
 				1DA25965287302D400218A63 /* AppDelegate.swift in Sources */,
+				785C7D0228872170006DCB84 /* HomeViewController.swift in Sources */,
+				785C7D06288721CA006DCB84 /* SurveyViewController.swift in Sources */,
+				785C7D0028871FE4006DCB84 /* MainTabBarController.swift in Sources */,
+				785C7D04288721A0006DCB84 /* ProfileViewController.swift in Sources */,
 				1DA25967287302D400218A63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1DA2596A287302D400218A63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DA2596B287302D400218A63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1DA2596F287302D500218A63 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +365,6 @@
 				INFOPLIST_FILE = "bcde-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -392,7 +394,6 @@
 				INFOPLIST_FILE = "bcde-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
